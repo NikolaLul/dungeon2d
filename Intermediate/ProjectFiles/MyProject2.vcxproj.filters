@@ -11,6 +11,8 @@
     <None Include="..\..\Source\MyProject2Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -40,6 +42,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject2\MyProject2GameModeBase.h">
       <Filter>Source\MyProject2</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject2\Private">
+      <UniqueIdentifier>{E041AFB7-1FE1-3F8D-807A-63D123291E0C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject2\Private\MyCharacter.cpp">
+      <Filter>Source\MyProject2\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyProject2\Public">
+      <UniqueIdentifier>{72360B30-4ADA-3AEE-BF83-05F51D365389}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyProject2\Public\MyCharacter.h">
+      <Filter>Source\MyProject2\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
