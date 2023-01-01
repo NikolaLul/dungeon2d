@@ -25,6 +25,15 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\MyProject2">
       <UniqueIdentifier>{31BB7B44-83D7-3E7D-902C-BBA9392413B1}</UniqueIdentifier>
     </Filter>
@@ -46,13 +55,25 @@
     <Filter Include="Source\MyProject2\Private">
       <UniqueIdentifier>{E041AFB7-1FE1-3F8D-807A-63D123291E0C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject2\Private\MainCharacter.cpp">
+      <Filter>Source\MyProject2\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MyProject2\Private\MyCharacter.cpp">
+      <Filter>Source\MyProject2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject2\Private\NewCharacter.cpp">
       <Filter>Source\MyProject2\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MyProject2\Public">
       <UniqueIdentifier>{72360B30-4ADA-3AEE-BF83-05F51D365389}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\MyProject2\Public\MainCharacter.h">
+      <Filter>Source\MyProject2\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\MyProject2\Public\MyCharacter.h">
+      <Filter>Source\MyProject2\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProject2\Public\NewCharacter.h">
       <Filter>Source\MyProject2\Public</Filter>
     </ClInclude>
   </ItemGroup>

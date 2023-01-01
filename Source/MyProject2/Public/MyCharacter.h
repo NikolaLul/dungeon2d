@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MyCharacter.generated.h"
+#include "Camera/CameraComponent.h"
 
 UCLASS()
 class MYPROJECT2_API AMyCharacter : public ACharacter

@@ -26,4 +26,28 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(VisibleAnywhere)
+		class UCameraComponent* SideViewCamera;
+
+protected:
+
+	void MoveRight(float Value);
+	void MoveUp(float Value);
+
+public:
+
+	void RestartLevel();
+
+	UFUNCTION()
+		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp,
+			AActor* OtherActor, UPrimitiveComponent* OtherComp,
+			int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+private:
+
+	float zPosition;
+	float yPosition;
+	FVector TempPos = FVector();
+
+	bool CanMove;
 };
