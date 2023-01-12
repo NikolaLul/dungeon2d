@@ -2,6 +2,7 @@
 
 
 #include "Spawner.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ASpawner::ASpawner()
@@ -14,8 +15,10 @@ ASpawner::ASpawner()
 // Called when the game starts or when spawned
 void ASpawner::BeginPlay()
 {
+
 	Super::BeginPlay();
-	
+	APaperCharacter* MySpawnedCharacter = GetWorld()->SpawnActor<APaperCharacter>(MyVariable, GetActorTransform());
+	UGameplayStatics::GetPlayerController(GetWorld(), 0)->Possess(MySpawnedCharacter);
 }
 
 // Called every frame

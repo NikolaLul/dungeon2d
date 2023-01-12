@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "PaperCharacter.h"
 #include "Spawner.generated.h"
 
 UCLASS()
@@ -14,6 +15,8 @@ class MYPROJECT2_API ASpawner : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ASpawner();
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<APaperCharacter> MyVariable;
 
 protected:
 	// Called when the game starts or when spawned
