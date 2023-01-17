@@ -255,6 +255,10 @@
 /I "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Inc\MyProject2"
 /I "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Source"
 /I "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Source\MyProject2\Public"
+/I ..\Plugins\2D\Paper2D\Intermediate\Build\Win64\UnrealEditor\Inc\Paper2D
+/I ..\Plugins\2D\Paper2D\Source
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Classes
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source

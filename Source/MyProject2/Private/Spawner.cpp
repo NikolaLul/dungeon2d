@@ -12,7 +12,6 @@ ASpawner::ASpawner()
 
 }
 
-// Called when the game starts or when spawned
 void ASpawner::BeginPlay()
 {
 
