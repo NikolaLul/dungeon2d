@@ -34,12 +34,10 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Spawner.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2GameModeBase.cpp.obj"
-"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyCharacter.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyPaperCharacter.cpp.obj"
-"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Spawner.cpp.obj"
-"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyCharacter.gen.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyPaperCharacter.gen.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2.init.gen.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2GameModeBase.gen.cpp.obj"

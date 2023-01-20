@@ -29,5 +29,31 @@ void AMyPaperCharacter::Tick(float DeltaTime)
 void AMyPaperCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	PlayerInputComponent->BindAxis("UpOrDown", this, &AMyPaperCharacter::UpOrDown);
+	PlayerInputComponent->BindAxis("LeftOrRight", this, &AMyPaperCharacter::LeftOrRight);
 
+	InputComponent->BindAxis(TEXT("UpOrDown"));
+	InputComponent->BindAxis(TEXT("LeftOrRight"));
+}
+
+void AMyPaperCharacter::UpOrDown(float Value)
+{
+	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Z);
+	AddMovementInput(Direction, Value);
+}
+
+void AMyPaperCharacter::LeftOrRight(float Value)
+{
+	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
+	AddMovementInput(Direction, Value);
+}
+
+void AMyPaperCharacter::setmyflipbook()
+{
+	if () {
+
+	}
+	else {
+
+	}
 }

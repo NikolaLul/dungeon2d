@@ -14,8 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MYPROJECT2_MyPaperCharacter_generated_h
 
 #define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_12_SPARSE_DATA
-#define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_12_RPC_WRAPPERS
-#define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execLeftOrRight); \
+	DECLARE_FUNCTION(execUpOrDown);
+
+
+#define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execLeftOrRight); \
+	DECLARE_FUNCTION(execUpOrDown);
+
+
 #define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPaperCharacter(); \
