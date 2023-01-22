@@ -40,18 +40,20 @@ void AMyPaperCharacter::UpOrDown(float Value)
 {
 	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Z);
 	AddMovementInput(Direction, Value);
+	UpOrDown_val = Value;
 }
 
 void AMyPaperCharacter::LeftOrRight(float Value)
 {
 	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
 	AddMovementInput(Direction, Value);
+	LeftOrRight_val = Value;
 }
 
 void AMyPaperCharacter::setmyflipbook()
 {
-	if () {
-
+	if (LeftOrRight_val != 0 || UpOrDown_val != 0) {
+		
 	}
 	else {
 

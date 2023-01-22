@@ -34,4 +34,7 @@ public:
 
 	void setmyflipbook();
 
+	float UpOrDown_val;
+	float LeftOrRight_val;
+
 };
