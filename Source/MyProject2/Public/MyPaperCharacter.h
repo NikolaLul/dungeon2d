@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "PaperCharacter.h"
 #include "MyPaperCharacter.generated.h"
+#include "PaperFlipbookComponent.h"
 
 UCLASS()
 class MYPROJECT2_API AMyPaperCharacter : public APaperCharacter
@@ -37,4 +38,16 @@ public:
 	float UpOrDown_val;
 	float LeftOrRight_val;
 
+	UENUM()
+		enum class LastMoveDirection {
+			Up UMETA(DisplayName = "Up"),
+			Down UMETA(DisplayName = "Down"),
+			Left UMETA(DisplayName = "Left"),
+			Right UMETA(DisplayName = "Right")
+		};
+
+	void setLMD(LastMoveDirection lmd);
+
+private:
+	LastMoveDirection lmd;
 };

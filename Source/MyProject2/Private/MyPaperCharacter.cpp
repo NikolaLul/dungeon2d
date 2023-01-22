@@ -31,9 +31,6 @@ void AMyPaperCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("UpOrDown", this, &AMyPaperCharacter::UpOrDown);
 	PlayerInputComponent->BindAxis("LeftOrRight", this, &AMyPaperCharacter::LeftOrRight);
-
-	InputComponent->BindAxis(TEXT("UpOrDown"));
-	InputComponent->BindAxis(TEXT("LeftOrRight"));
 }
 
 void AMyPaperCharacter::UpOrDown(float Value)
@@ -53,9 +50,17 @@ void AMyPaperCharacter::LeftOrRight(float Value)
 void AMyPaperCharacter::setmyflipbook()
 {
 	if (LeftOrRight_val != 0 || UpOrDown_val != 0) {
-		
-	}
-	else {
-
+		if (UpOrDown_val > 0) {
+			setLMD(LastMoveDirection::Up);
+		}
+		else if(UpOrDown_val < 0){
+			setLMD(LastMoveDirection::Down);
+		}
+		else if (LeftOrRight_val > 0) {
+			setLMD(LastMoveDirection::Right);
+		}
+		else {
+			setLMD(LastMoveDirection::Left);
+		}
 	}
 }
