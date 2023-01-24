@@ -7,9 +7,10 @@
 /**
  * 
  */
-class MYPROJECT2_API Enum_class
-{
-public:
-	Enum_class();
-	~Enum_class();
+UENUM()
+enum class LastMoveDirection {
+	Up UMETA(DisplayName = "Up"),
+	Down UMETA(DisplayName = "Down"),
+	Left UMETA(DisplayName = "Left"),
+	Right UMETA(DisplayName = "Right")
 };

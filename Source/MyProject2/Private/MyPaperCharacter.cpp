@@ -51,16 +51,19 @@ void AMyPaperCharacter::setmyflipbook()
 {
 	if (LeftOrRight_val != 0 || UpOrDown_val != 0) {
 		if (UpOrDown_val > 0) {
-			setLMD(LastMoveDirection::Up);
+			lmd = LastMoveDirection::Up;
 		}
 		else if(UpOrDown_val < 0){
-			setLMD(LastMoveDirection::Down);
+			lmd = LastMoveDirection::Down;
 		}
 		else if (LeftOrRight_val > 0) {
-			setLMD(LastMoveDirection::Right);
+			lmd = LastMoveDirection::Right;
 		}
 		else {
-			setLMD(LastMoveDirection::Left);
+			lmd = LastMoveDirection::Left;
 		}
+	}
+	if (&GetVelocity().Size > 0) {
+		
 	}
 }

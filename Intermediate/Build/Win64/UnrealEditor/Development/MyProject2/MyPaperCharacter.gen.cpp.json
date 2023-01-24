@@ -15,6 +15,9 @@
             "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
             "d:\\ue_5.0\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\papercharacter.generated.h",
+            "d:\\ue_5.0\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\paperflipbookcomponent.h",
+            "d:\\ue_5.0\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\paperflipbookcomponent.generated.h",
+            "c:\\users\\niksata\\documents\\unreal projects\\myproject2\\source\\myproject2\\public\\enum_class.h",
             "c:\\users\\niksata\\documents\\unreal projects\\myproject2\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject2\\mypapercharacter.generated.h"
         ],
         "ImportedModules": [],

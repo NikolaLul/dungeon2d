@@ -3,10 +3,3 @@
 
 #include "Enum_class.h"
 
-Enum_class::Enum_class()
-{
-}
-
-Enum_class::~Enum_class()
-{
-}
