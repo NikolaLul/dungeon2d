@@ -75,6 +75,7 @@ void AMyPaperCharacter::setmyflipbook()
 		else {
 			flipbook_val = Idle_Up;
 		}
+		break;
 	case LastMoveDirection::Down:
 		if (WalkOrIdle) {
 			flipbook_val = Walk_Down;
@@ -82,6 +83,7 @@ void AMyPaperCharacter::setmyflipbook()
 		else {
 			flipbook_val = Idle_Down;
 		}
+		break;
 	case LastMoveDirection::Right:
 		if (WalkOrIdle) {
 			flipbook_val = Walk_Right;
@@ -89,14 +91,15 @@ void AMyPaperCharacter::setmyflipbook()
 		else {
 			flipbook_val = Idle_Right;
 		}
+		break;
 	case LastMoveDirection::Left:
 		if (WalkOrIdle) {
 			flipbook_val = Walk_Left;
 		}
 		else {
-			flipbook_val = Idle_Down;
+			flipbook_val = Idle_Left;
 		}
-
+		break;
 	}
 
 	GetSprite()->SetFlipbook(flipbook_val);

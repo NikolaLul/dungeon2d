@@ -35,10 +35,10 @@
 /FUNCTIONPADMIN
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Enum_class.cpp.obj"
-"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyPaperCharacter.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Spawner.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2GameModeBase.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyPaperCharacter.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Enum_class.gen.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyPaperCharacter.gen.cpp.obj"
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2.init.gen.cpp.obj"
@@ -74,7 +74,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Binaries\Win64\UnrealEditor-MyProject2-0021.dll"
-/IMPLIB:"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\UnrealEditor-MyProject2-0021.suppressed.lib"
-/PDB:"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Binaries\Win64\UnrealEditor-MyProject2-0021.pdb"
+/OUT:"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Binaries\Win64\UnrealEditor-MyProject2-0023.dll"
+/IMPLIB:"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\UnrealEditor-MyProject2-0023.suppressed.lib"
+/PDB:"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Binaries\Win64\UnrealEditor-MyProject2-0023.pdb"
 /ignore:4078
