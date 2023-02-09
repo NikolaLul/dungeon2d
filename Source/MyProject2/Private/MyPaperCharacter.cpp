@@ -63,7 +63,40 @@ void AMyPaperCharacter::setmyflipbook()
 			lmd = LastMoveDirection::Left;
 		}
 	}
-	if (&GetVelocity().Size > 0) {
-		
+
+	bool WalkOrIdle = GetVelocity().Size() > 0;
+
+	switch (lmd) {
+	case LastMoveDirection::Up:
+		if (WalkOrIdle) {
+			flipbook_val = Walk_Up;
+		}
+		else {
+			flipbook_val = Idle_Up;
+		}
+	case LastMoveDirection::Down:
+		if (WalkOrIdle) {
+			flipbook_val = Walk_Down;
+		}
+		else {
+			flipbook_val = Idle_Down;
+		}
+	case LastMoveDirection::Right:
+		if (WalkOrIdle) {
+			flipbook_val = Walk_Right;
+		}
+		else {
+			flipbook_val = Idle_Right;
+		}
+	case LastMoveDirection::Left:
+		if (WalkOrIdle) {
+			flipbook_val = Walk_Left;
+		}
+		else {
+			flipbook_val = Idle_Down;
+		}
+
 	}
+
+	GetSprite()->SetFlipbook(flipbook_val);
 }

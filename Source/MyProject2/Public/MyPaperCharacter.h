@@ -42,6 +42,9 @@ public:
 	LastMoveDirection lmd;
 
 	UPROPERTY(EditAnywhere)
+		UPaperFlipbook* flipbook_val;
+
+	UPROPERTY(EditAnywhere)
 		UPaperFlipbook* Idle_Up;
 	UPROPERTY(EditAnywhere)
 		UPaperFlipbook* Idle_Down;
