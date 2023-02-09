@@ -22,6 +22,7 @@ void AMyPaperCharacter::BeginPlay()
 void AMyPaperCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	setmyflipbook();
 
 }
 
