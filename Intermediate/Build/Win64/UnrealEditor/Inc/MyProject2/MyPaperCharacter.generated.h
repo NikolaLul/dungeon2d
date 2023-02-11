@@ -16,12 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_14_SPARSE_DATA
 #define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execHit); \
 	DECLARE_FUNCTION(execLeftOrRight); \
 	DECLARE_FUNCTION(execUpOrDown);
 
 
 #define FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execHit); \
 	DECLARE_FUNCTION(execLeftOrRight); \
 	DECLARE_FUNCTION(execUpOrDown);
 

@@ -32,6 +32,7 @@ void AMyPaperCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("UpOrDown", this, &AMyPaperCharacter::UpOrDown);
 	PlayerInputComponent->BindAxis("LeftOrRight", this, &AMyPaperCharacter::LeftOrRight);
+	PlayerInputComponent->BindAxis("Hit", this, &AMyPaperCharacter::Hit);
 }
 
 void AMyPaperCharacter::UpOrDown(float Value)
@@ -46,6 +47,10 @@ void AMyPaperCharacter::LeftOrRight(float Value)
 	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
 	AddMovementInput(Direction, Value);
 	LeftOrRight_val = Value;
+}
+
+void AMyPaperCharacter::Hit(float Value) {
+	is_Hitting = Value;
 }
 
 void AMyPaperCharacter::setmyflipbook()
@@ -100,6 +105,23 @@ void AMyPaperCharacter::setmyflipbook()
 			flipbook_val = Idle_Left;
 		}
 		break;
+	}
+
+	if (is_Hitting != 0) {
+		switch (lmd) {
+		case LastMoveDirection::Up:
+			flipbook_val = Hitting_Up;
+			break;
+		case LastMoveDirection::Down:
+			flipbook_val = Hitting_Down;
+			break;
+		case LastMoveDirection::Right:
+			flipbook_val = Hitting_Right;
+			break;
+		case LastMoveDirection::Left:
+			flipbook_val = Hitting_Left;
+			break;
+		}
 	}
 
 	GetSprite()->SetFlipbook(flipbook_val);

@@ -34,10 +34,14 @@ public:
 	UFUNCTION()
 		void LeftOrRight(float Value);
 
+	UFUNCTION()
+		void Hit(float Value);
+
 	void setmyflipbook();
 
 	float UpOrDown_val;
 	float LeftOrRight_val;
+	float is_Hitting;
 
 	LastMoveDirection lmd;
 
@@ -60,5 +64,14 @@ public:
 		UPaperFlipbook* Walk_Left;
 	UPROPERTY(EditAnywhere)
 		UPaperFlipbook* Walk_Right;
+
+	UPROPERTY(EditAnywhere)
+		UPaperFlipbook* Hitting_Up;
+	UPROPERTY(EditAnywhere)
+		UPaperFlipbook* Hitting_Down;
+	UPROPERTY(EditAnywhere)
+		UPaperFlipbook* Hitting_Left;
+	UPROPERTY(EditAnywhere)
+		UPaperFlipbook* Hitting_Right;
 
 };
