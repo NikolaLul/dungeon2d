@@ -47,6 +47,7 @@
 "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Default.rc2.res"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Plugins\2D\Paper2D\Intermediate\Build\Win64\UnrealEditor\Development\Paper2D\UnrealEditor-Paper2D.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\UMG\UnrealEditor-UMG.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"

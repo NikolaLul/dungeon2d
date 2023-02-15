@@ -16,6 +16,13 @@ void AMyPaperCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	if (HealthBarWidgetClass != nullptr) {
+		HealthBarWidget = CreateWidget<UUserWidget>(GetWorld(), HealthBarWidgetClass);
+		if (HealthBarWidget != nullptr) {
+			HealthBarWidget->AddToViewport();
+		}
+	}
+
 }
 
 // Called every frame
@@ -23,6 +30,13 @@ void AMyPaperCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	setmyflipbook();
+
+	if (HealthBarWidget != nullptr) {
+		UProgressBar* HealthBar = Cast<UProgressBar>(HealthBarWidget->GetWidgetFromName(TEXT("HealthBar")));
+		if (HealthBar != nullptr) {
+			HealthBar->SetPercent(Health / 100.f);
+		}
+	}
 
 }
 

@@ -6,6 +6,8 @@
 #include "PaperCharacter.h"
 #include "PaperFlipbookComponent.h"
 #include "Enum_class.h"
+#include "Components/WidgetComponent.h"
+#include "Components/ProgressBar.h"
 #include "MyPaperCharacter.generated.h"
 
 UCLASS()
@@ -36,6 +38,14 @@ public:
 
 	UFUNCTION()
 		void Hit(float Value);
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class UUserWidget> HealthBarWidgetClass;
+
+	UUserWidget* HealthBarWidget;
+
+	UPROPERTY(EditAnywhere)
+		float Health = 100;
 
 	void setmyflipbook();
 

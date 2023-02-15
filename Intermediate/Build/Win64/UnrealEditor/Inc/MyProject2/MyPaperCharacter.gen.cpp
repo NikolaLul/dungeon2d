@@ -13,6 +13,8 @@ void EmptyLinkFunctionForGeneratedCodeMyPaperCharacter() {}
 	MYPROJECT2_API UClass* Z_Construct_UClass_AMyPaperCharacter();
 	PAPER2D_API UClass* Z_Construct_UClass_APaperCharacter();
 	UPackage* Z_Construct_UPackage__Script_MyProject2();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AMyPaperCharacter::execHit)
@@ -158,6 +160,14 @@ void EmptyLinkFunctionForGeneratedCodeMyPaperCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_HealthBarWidgetClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_HealthBarWidgetClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_flipbook_val_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_flipbook_val;
@@ -229,6 +239,20 @@ void EmptyLinkFunctionForGeneratedCodeMyPaperCharacter() {}
 		{ "ModuleRelativePath", "Public/MyPaperCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_HealthBarWidgetClass_MetaData[] = {
+		{ "Category", "MyPaperCharacter" },
+		{ "ModuleRelativePath", "Public/MyPaperCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_HealthBarWidgetClass = { "HealthBarWidgetClass", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPaperCharacter, HealthBarWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_HealthBarWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_HealthBarWidgetClass_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Health_MetaData[] = {
+		{ "Category", "MyPaperCharacter" },
+		{ "ModuleRelativePath", "Public/MyPaperCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPaperCharacter, Health), METADATA_PARAMS(Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Health_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_flipbook_val_MetaData[] = {
 		{ "Category", "MyPaperCharacter" },
@@ -321,6 +345,8 @@ void EmptyLinkFunctionForGeneratedCodeMyPaperCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Hitting_Right = { "Hitting_Right", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPaperCharacter, Hitting_Right), Z_Construct_UClass_UPaperFlipbook_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Hitting_Right_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Hitting_Right_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPaperCharacter_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_HealthBarWidgetClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Health,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_flipbook_val,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Idle_Up,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPaperCharacter_Statics::NewProp_Idle_Down,
@@ -371,9 +397,9 @@ void EmptyLinkFunctionForGeneratedCodeMyPaperCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMyPaperCharacter, AMyPaperCharacter::StaticClass, TEXT("AMyPaperCharacter"), &Z_Registration_Info_UClass_AMyPaperCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPaperCharacter), 443741132U) },
+		{ Z_Construct_UClass_AMyPaperCharacter, AMyPaperCharacter::StaticClass, TEXT("AMyPaperCharacter"), &Z_Registration_Info_UClass_AMyPaperCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPaperCharacter), 513718061U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_3998262884(TEXT("/Script/MyProject2"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_2183053182(TEXT("/Script/MyProject2"),
 		Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_MyPaperCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
