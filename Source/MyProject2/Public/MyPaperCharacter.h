@@ -53,7 +53,7 @@ public:
 	float LeftOrRight_val;
 	float is_Hitting;
 
-	LastMoveDirection lmd;
+	LastMoveDirection lmd = LastMoveDirection::Down;
 
 	UPROPERTY(EditAnywhere)
 		UPaperFlipbook* flipbook_val;
