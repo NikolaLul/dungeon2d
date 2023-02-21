@@ -64,6 +64,9 @@
     <ClCompile Include="..\..\Source\MyProject2\Private\Spawner.cpp">
       <Filter>Source\MyProject2\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject2\Private\SpawnerEnemy.cpp">
+      <Filter>Source\MyProject2\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MyProject2\Public">
       <UniqueIdentifier>{72360B30-4ADA-3AEE-BF83-05F51D365389}</UniqueIdentifier>
     </Filter>
@@ -74,6 +77,9 @@
       <Filter>Source\MyProject2\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MyProject2\Public\Spawner.h">
+      <Filter>Source\MyProject2\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProject2\Public\SpawnerEnemy.h">
       <Filter>Source\MyProject2\Public</Filter>
     </ClInclude>
   </ItemGroup>

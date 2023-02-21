@@ -15,6 +15,7 @@ ASpawnerEnemy::ASpawnerEnemy()
 void ASpawnerEnemy::BeginPlay()
 {
 	Super::BeginPlay();
+	APaperCharacter* MySpawnedCharacter = GetWorld()->SpawnActor<APaperCharacter>(MyVariable, GetActorTransform());
 	
 }
 
