@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MYPROJECT2_Enum_class_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_MyProject2_Source_MyProject2_Public_Enum_class_h
+#define CURRENT_FILE_ID FID_MyProjectGit_Source_MyProject2_Public_Enum_class_h
 
 
 #define FOREACH_ENUM_LASTMOVEDIRECTION(op) \

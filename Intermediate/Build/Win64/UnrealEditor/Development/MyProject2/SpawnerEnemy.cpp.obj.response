@@ -1,6 +1,6 @@
-"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Source\MyProject2\Private\SpawnerEnemy.cpp"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Source\MyProject2\Private\SpawnerEnemy.cpp"
 /I .
-/I "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Source\MyProject2\Private"
+/I "C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Source\MyProject2\Private"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
 /I ..\Shaders\Shared
@@ -256,9 +256,9 @@
 /I ..\Plugins\2D\Paper2D\Source
 /I ..\Plugins\2D\Paper2D\Source\Paper2D\Classes
 /I ..\Plugins\2D\Paper2D\Source\Paper2D\Public
-/I "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Inc\MyProject2"
-/I "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Source"
-/I "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Source\MyProject2\Public"
+/I "C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Inc\MyProject2"
+/I "C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Source"
+/I "C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Source\MyProject2\Public"
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -279,12 +279,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Definitions.MyProject2.h"
-/Yu"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\SpawnerEnemy.cpp.obj"
-/sourceDependencies "C:\Users\Niksata\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\SpawnerEnemy.cpp.json"
+/FI"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Definitions.MyProject2.h"
+/Yu"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\SpawnerEnemy.cpp.obj"
+/sourceDependencies "C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\SpawnerEnemy.cpp.json"
 /Zc:inline
 /nologo
 /Oi

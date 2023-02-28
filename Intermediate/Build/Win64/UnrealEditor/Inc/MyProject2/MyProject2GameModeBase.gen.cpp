@@ -75,15 +75,15 @@ void EmptyLinkFunctionForGeneratedCodeMyProject2GameModeBase() {}
 		return AMyProject2GameModeBase::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyProject2GameModeBase);
-	struct Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_MyProject2GameModeBase_h_Statics
+	struct Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_MyProject2GameModeBase_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_MyProject2GameModeBase_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_MyProject2GameModeBase_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AMyProject2GameModeBase, AMyProject2GameModeBase::StaticClass, TEXT("AMyProject2GameModeBase"), &Z_Registration_Info_UClass_AMyProject2GameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyProject2GameModeBase), 1424411038U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_MyProject2GameModeBase_h_561515562(TEXT("/Script/MyProject2"),
-		Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_MyProject2GameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_MyProject2GameModeBase_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_MyProject2GameModeBase_h_561515562(TEXT("/Script/MyProject2"),
+		Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_MyProject2GameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_MyProject2GameModeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{12C25D76-E9F8-3E9E-BCEB-E12E0198F4AB}</ProjectGuid>
+    <ProjectGuid>{60A5E26A-53E1-3E79-B1D7-20531A6DD97D}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>MyProject2</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -194,6 +194,10 @@
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UE_5.0\Engine\Source\ThirdParty\mimalloc\include;D:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Definitions.MyProject2.h</ForcedIncludeFiles>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject2\Private\MyEnemyCharacter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UE_5.0\Engine\Source\ThirdParty\mimalloc\include;D:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Definitions.MyProject2.h</ForcedIncludeFiles>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MyProject2\Private\MyPaperCharacter.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UE_5.0\Engine\Source\ThirdParty\mimalloc\include;D:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Definitions.MyProject2.h</ForcedIncludeFiles>
@@ -207,6 +211,7 @@
       <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Definitions.MyProject2.h</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject2\Public\Enum_class.h"/>
+    <ClInclude Include="..\..\Source\MyProject2\Public\MyEnemyCharacter.h"/>
     <ClInclude Include="..\..\Source\MyProject2\Public\MyPaperCharacter.h"/>
     <ClInclude Include="..\..\Source\MyProject2\Public\Spawner.h"/>
     <ClInclude Include="..\..\Source\MyProject2\Public\SpawnerEnemy.h"/>

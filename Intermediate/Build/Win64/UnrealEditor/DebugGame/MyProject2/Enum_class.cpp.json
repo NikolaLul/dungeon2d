@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\source\\myproject2\\private\\enum_class.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\intermediate\\build\\win64\\myproject2editor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\intermediate\\build\\win64\\unrealeditor\\debuggame\\myproject2\\definitions.myproject2.h",
+            "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\source\\myproject2\\public\\enum_class.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

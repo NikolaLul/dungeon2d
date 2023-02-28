@@ -77,15 +77,15 @@ void EmptyLinkFunctionForGeneratedCodeEnum_class() {}
 		}
 		return Z_Registration_Info_UEnum_LastMoveDirection.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_Enum_class_h_Statics
+	struct Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_Public_Enum_class_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_Enum_class_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_Public_Enum_class_h_Statics::EnumInfo[] = {
 		{ LastMoveDirection_StaticEnum, TEXT("LastMoveDirection"), &Z_Registration_Info_UEnum_LastMoveDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2058513047U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_Enum_class_h_3068841168(TEXT("/Script/MyProject2"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_Public_Enum_class_h_3068841168(TEXT("/Script/MyProject2"),
 		nullptr, 0,
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_Enum_class_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProject2_Source_MyProject2_Public_Enum_class_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_Public_Enum_class_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProjectGit_Source_MyProject2_Public_Enum_class_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

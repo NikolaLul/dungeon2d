@@ -58,6 +58,9 @@
     <ClCompile Include="..\..\Source\MyProject2\Private\Enum_class.cpp">
       <Filter>Source\MyProject2\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject2\Private\MyEnemyCharacter.cpp">
+      <Filter>Source\MyProject2\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MyProject2\Private\MyPaperCharacter.cpp">
       <Filter>Source\MyProject2\Private</Filter>
     </ClCompile>
@@ -71,6 +74,9 @@
       <UniqueIdentifier>{72360B30-4ADA-3AEE-BF83-05F51D365389}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyProject2\Public\Enum_class.h">
+      <Filter>Source\MyProject2\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyProject2\Public\MyEnemyCharacter.h">
       <Filter>Source\MyProject2\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MyProject2\Public\MyPaperCharacter.h">

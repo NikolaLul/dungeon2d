@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MyProject2-9466.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Enum_class.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Spawner.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\SpawnerEnemy.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2GameModeBase.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyEnemyCharacter.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyPaperCharacter.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Enum_class.gen.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyEnemyCharacter.gen.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyPaperCharacter.gen.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2.init.gen.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\MyProject2GameModeBase.gen.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Spawner.gen.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\SpawnerEnemy.gen.cpp.obj"
+"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\Default.rc2.res"
+/OUT:"C:\Users\Niksata\Documents\Unreal Projects\MyProjectGit\Intermediate\Build\Win64\UnrealEditor\Development\MyProject2\UnrealEditor-MyProject2-9466.lib"

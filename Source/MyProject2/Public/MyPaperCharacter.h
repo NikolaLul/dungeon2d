@@ -8,6 +8,11 @@
 #include "Enum_class.h"
 #include "Components/WidgetComponent.h"
 #include "Components/ProgressBar.h"
+#include "MyEnemyCharacter.h"
+#include "Components/CapsuleComponent.h"
+#include "GameFramework/Actor.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "MyPaperCharacter.generated.h"
 
 UCLASS()
@@ -30,6 +35,11 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void RestartLevel();
+
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+	void OnEnemyOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
 	UFUNCTION()
 		void UpOrDown(float Value);
 
@@ -46,6 +56,11 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		float Health = 100;
+
+	UFUNCTION(BlueprintPure)
+		float GetHealth() const { return Health; }
+
+	bool isDead = false;
 
 	void setmyflipbook();
 
@@ -84,4 +99,6 @@ public:
 	UPROPERTY(EditAnywhere)
 		UPaperFlipbook* Hitting_Right;
 
+	UPROPERTY(EditAnywhere)
+		UPaperFlipbook* Death_Animation;
 };

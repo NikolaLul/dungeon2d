@@ -29,21 +29,48 @@ void AMyPaperCharacter::BeginPlay()
 void AMyPaperCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	setmyflipbook();
-
-	if (HealthBarWidget != nullptr) {
-		UProgressBar* HealthBar = Cast<UProgressBar>(HealthBarWidget->GetWidgetFromName(TEXT("HealthBar")));
-		if (HealthBar != nullptr) {
-			HealthBar->SetPercent(Health / 100.f);
-		}
+	if (Health > 0.f) {
+		setmyflipbook();
 	}
+	else {
+		Health = 0;
+		DisableInput(nullptr);
+		GetCharacterMovement()->SetMovementMode(MOVE_None);
+		GetSprite()->SetFlipbook(Death_Animation);
 
+		FTimerHandle TimerHandle;
+		GetWorldTimerManager().SetTimer(TimerHandle, this, &AMyPaperCharacter::RestartLevel, 1.f, false);
+	}
+}
+
+void AMyPaperCharacter::RestartLevel()
+{
+	UGameplayStatics::OpenLevel(GetWorld(), FName(*GetWorld()->GetName()), false);
+}
+
+float AMyPaperCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) {
+	const float ActualDamage = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+
+	Health -= ActualDamage;
+
+	return ActualDamage;
+}
+
+void AMyPaperCharacter::OnEnemyOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	AMyEnemyCharacter* MyEnemyCharacter = Cast<AMyEnemyCharacter>(OtherActor);
+	if (MyEnemyCharacter)
+	{
+		FDamageEvent DamageEvent;
+		TakeDamage(MyEnemyCharacter->GetDamageAmount(), DamageEvent, nullptr, MyEnemyCharacter);
+	}
 }
 
 // Called to bind functionality to input
 void AMyPaperCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
 	PlayerInputComponent->BindAxis("UpOrDown", this, &AMyPaperCharacter::UpOrDown);
 	PlayerInputComponent->BindAxis("LeftOrRight", this, &AMyPaperCharacter::LeftOrRight);
 	PlayerInputComponent->BindAxis("Hit", this, &AMyPaperCharacter::Hit);
@@ -51,14 +78,14 @@ void AMyPaperCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 void AMyPaperCharacter::UpOrDown(float Value)
 {
-	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Z);
+	FVector Direction = FVector(0, -1, 0);
 	AddMovementInput(Direction, Value);
 	UpOrDown_val = Value;
 }
 
 void AMyPaperCharacter::LeftOrRight(float Value)
 {
-	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
+	FVector Direction = FVector(1, 0, 0);
 	AddMovementInput(Direction, Value);
 	LeftOrRight_val = Value;
 }
@@ -140,3 +167,4 @@ void AMyPaperCharacter::setmyflipbook()
 
 	GetSprite()->SetFlipbook(flipbook_val);
 }
+

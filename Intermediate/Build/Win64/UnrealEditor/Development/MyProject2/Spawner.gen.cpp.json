@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\niksata\\documents\\unreal projects\\myproject2\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject2\\spawner.gen.cpp",
+        "Source": "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject2\\spawner.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\niksata\\documents\\unreal projects\\myproject2\\intermediate\\build\\win64\\myproject2editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\intermediate\\build\\win64\\myproject2editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\niksata\\documents\\unreal projects\\myproject2\\intermediate\\build\\win64\\unrealeditor\\development\\myproject2\\definitions.myproject2.h",
-            "c:\\users\\niksata\\documents\\unreal projects\\myproject2\\source\\myproject2\\public\\spawner.h",
+            "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\intermediate\\build\\win64\\unrealeditor\\development\\myproject2\\definitions.myproject2.h",
+            "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\source\\myproject2\\public\\spawner.h",
             "d:\\ue_5.0\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papercharacter.h",
             "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
@@ -15,7 +15,7 @@
             "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
             "d:\\ue_5.0\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\papercharacter.generated.h",
-            "c:\\users\\niksata\\documents\\unreal projects\\myproject2\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject2\\spawner.generated.h"
+            "c:\\users\\niksata\\documents\\unreal projects\\myprojectgit\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject2\\spawner.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
