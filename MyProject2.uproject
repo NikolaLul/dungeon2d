@@ -1,4 +1,4 @@
-	{
+{
 	"FileVersion": 3,
 	"EngineAssociation": "5.0",
 	"Category": "",
@@ -11,7 +11,8 @@
 			"AdditionalDependencies": [
 				"Engine",
 				"Paper2D",
-				"UMG"
+				"UMG",
+				"AIModule"
 			]
 		}
 	],
